@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:rgba(143,211,231,0.82);
+}
+.form{
+background-color:rgba(212,235,139,1.00);
+padding:20px;
+border:1px solid rgba(121,255,0,1.00);
+border-radius:0px 10px;
+margin:10px;
+box-shadow:-2px 4px 3px rgba(34,113,252,1.00);
+}
+.form label {
+	color:#696;
+	font-style:oblique;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    display: block;
+    margin: 10px;
+}
+h2{
+text-align:center;
+color:rgba(255,255,255,1.00);
+font-size:36px;
+}

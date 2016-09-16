@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+/*body*/
+body{
+	background-color:#C3F7D5;
+	width:1349px;
+	height:auto;
+}
+/*wrapper*/
+.wrapper{
+	background-color:rgba(255,0,4,1.00);
+	height:auto;
+	width:100%;
+	margin-top:0px;
+	padding:0px;
+}
+/*banner*/
+.wrapper .banner{
+	width:100%;
+	height:500px;
+	background-color:rgba(228,193,252,0.98);
+	margin:0px;
+	padding:0px;
+}
+.wrapper .banner .image{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+.wrapper .banner .text{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	top:20px;
+	left:0px;
+	z-index:1;
+	width:100%;
+	color:rgba(255,255,255,1.00);
+	background-color:rgba(0,0,0,1.00);
+	opacity:0.5;
+}
+.wrapper .banner .text:hover{
+	opacity:0.8;
+}
+.wrapper .banner .text p{
+	font-family: 'Indie Flower', cursive;
+	margin-left:25px;
+	font-size:20px;
+	cursor:pointer;
+}
+.wrapper .banner .text h1{
+	font-size:45px;
+	font-family: 'Lobster', cursive;
+	margin-left:10px;
+	cursor:pointer;
+	text-shadow:2px 1px grey;
+}
+/*nav-bar*/
+.wrapper .nav-bar table a{
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+	font-size:24px;
+	font-family: 'Shadows Into Light', cursive;
+}
+.wrapper .nav-bar table td {
+	background-color:rgba(0,237,41,0.97);	
+	border-radius:5px;
+}
+.wrapper .nav-bar table a:hover{
+	color:rgba(0,235,26,1.00);
+}
+.wrapper .nav-bar table td:hover{
+	color:rgba(0,0,0,1.00);
+	background-color:rgba(255,255,255,1.00);
+}
+/*content*/
+.wrapper .content
+{
+	height:auto;
+	width:100%;
+	background-color:rgba(204,224,113,1.00);
+}
+/*welcome*/
+.wrapper .welcome{
+	height:400px;
+	width:45%;
+	padding:5px;
+	margin-left:10px;
+	float:left;
+	border:2px solid rgba(135,195,0,1.00);
+	border-radius:0px 5px 0px 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .welcome h3{
+	font-size:32px;
+	text-shadow:1px 1px gray;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin:0px;
+	
+}
+.wrapper .welcome p{
+	font-size:18px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/*ads*/
+.wrapper .ads{
+	height:400px;
+	width:45%;
+	margin-right:10px;
+	float:right;
+	border:2px solid rgba(135,195,0,1.00);
+	border-radius:0px 5px 0px 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*footer*/
+.wrapper .footer{
+	padding-top:30px;
+	padding-bottom:30px;
+	height:300px;
+	background-color:rgba(130,128,128,1.00);
+	width:100%;
+}
+.wrapper .footer .section-1{
+	float:left;
+	width:33.3%;
+	text-align:center;
+	height:100%;
+	border-right:ridge 2px white;
+} 
+
+.wrapper .footer .section-1 li
+{
+	margin-top:10px;
+}
+.wrapper .footer .section-2{
+	width:33.3%;
+	float:left;
+	text-align:center;
+	height:100%;
+	border-right:ridge 2px white;
+}
+
+.wrapper .footer .section-3{
+	width:33.3%;
+	float:left;
+	padding-left:10px;
+	height:100%;
+}
+
+.wrapper .footer .section-3 .facebook
+{
+	height:33%;
+	width:100%;
+	background:url(../images/fblogo.png)  no-repeat;
+}
+.wrapper .footer .section-3 .twitter
+{
+	height:33%;
+	width:100%;
+	background:url(../images/twitterlogo.png) no-repeat;
+}
+.wrapper .footer .section-3 .insta
+{
+	height:33%;
+	width:100%;
+	background:url(../images/Instagramlogo.png) no-repeat;
+}
+
+.wrapper .footer .section-3 .facebook p, .insta p, .twitter p
+{
+	margin-left:70px;
+}
